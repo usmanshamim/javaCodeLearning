@@ -11,6 +11,7 @@ public class StringSortAndCount {
         System.out.println("Enter the strings:");
         for (int i = 0; i < n; i++) {
             strings[i] = sc.nextLine();
+            strings[i]=strings[i].toLowerCase();
         }
         // Sort strings alphabetically
         Arrays.sort(strings);
