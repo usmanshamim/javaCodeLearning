@@ -1,6 +1,11 @@
+/*
+ c. 1
+    01
+    101¯
+    0101
 
+ */
 public class Pattern6c {
-
     public static void main(String[] args) {
         int rows = 4;
         for (int i = 1; i <= rows; i++) {
